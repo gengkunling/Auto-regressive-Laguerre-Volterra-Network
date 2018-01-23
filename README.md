@@ -3,7 +3,7 @@
 
 ## To run this program:
 
-1. Generate H-H Data
+1. Generate Data from Hodgkin-Huxley Equations
 Run [HH_data_gen.m](HH_data_gen.m) to generate the training data [HH_train.mat](HH_train.mat) and test data [HH_test.mat](HH_train.mat). In order to change the parameters of H-H equations, please go to [HH_equation.m](HH_equation.m).
 
 2. Train ASLVN
