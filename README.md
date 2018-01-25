@@ -1,6 +1,13 @@
 # Modeling Hodgkin-Huxley Equations with Autoregressive Sparse Laguerre-Volterra Network (ASLVN)
 
-Here is the implementation of Autoregressive  sparse  LVN  (ASLVN) in Matlab. ASLVN is the extension of the [LVN](https://github.com/gengkunling/Laguerre-Volterra-Network) that is able to model nonlinear systems that exhibit transitions in dynamic states, such as the classic Hodgkin–Huxley (H-H) equations.  
+Here is the implementation of Autoregressive Sparse  LVN  (ASLVN) in Matlab. ASLVN is the extension of the [LVN](https://github.com/gengkunling/Laguerre-Volterra-Network) that is able to model nonlinear systems that exhibit transitions in dynamic states, such as the classic Hodgkin–Huxley (H-H) equations.  
+
+The Laguerre-Volterra Network (LVN) is an advanced method to analyze time seires data and the nonlinear dynamic relationships in the systems. 
+
+LVN combines the idea of Laguerre kernel expansions with Artificial Neural Network (ANN). The Laguerre kernel expansions can be viewed as 1-D convolutional layer in the time domain. 
+
+Unlike Long short-term memory (LSTM) network, LVN is very compact and can learn the nonlinear dynamic patterns from a very limited amount of data. 
+
 
 
 ## To run this program:
