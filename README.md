@@ -12,13 +12,13 @@ Unlike Long short-term memory (LSTM) network, LVN is very compact and can learn 
 
 ## To run this program:
 
-###1. Generate Data from Hodgkin-Huxley Equations
+### 1. Generate Data from Hodgkin-Huxley Equations
 Run [HH_data_gen.m](HH_data_gen.m) to generate the training data [HH_train.mat](HH_train.mat) and test data [HH_test.mat](HH_train.mat). If you would like to change the parameters of H-H equations, please modify [HH_equation.m](HH_equation.m).
 
-###2. Train ASLVN
+### 2. Train ASLVN
 Run [ASLVN_train.m](ASLVN_train.m). The program will use the training data from [HH_train.mat](HH_train.mat) and optimize the ASLVN using simulated annealing algorithm.  The results will be stored in the [ASLVN_training_results.mat](ASLVN_training_results.mat).
 
-###3. Evaluate the ASLVN using test data
+### 3. Evaluate the ASLVN using test data
 Run [ASLVN_test.m](ASLVN_test.m).  The program will load the test data from [HH_test.mat](HH_test.mat) and the ASLVN model from [ASLVN_training_results.mat](ASLVN_training_results.mat), and then it will evaluate the model performance by plotting the continuous data predictions, binary data predictions and ROC curve plots.
 
 For more details, please look into the [ASLVN_paper.pdf](ASLVN_paper.pdf) included.
