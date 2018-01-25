@@ -5,18 +5,18 @@ Here is the implementation of Autoregressive  sparse  LVN  (ASLVN) in Matlab. AS
 
 ## To run this program:
 
-1. Generate Data from Hodgkin-Huxley Equations
-Run [HH_data_gen.m](HH_data_gen.m) to generate the training data [HH_train.mat](HH_train.mat) and test data [HH_test.mat](HH_train.mat). In order to change the parameters of H-H equations, please go to [HH_equation.m](HH_equation.m).
+###1. Generate Data from Hodgkin-Huxley Equations
+Run [HH_data_gen.m](HH_data_gen.m) to generate the training data [HH_train.mat](HH_train.mat) and test data [HH_test.mat](HH_train.mat). If you would like to change the parameters of H-H equations, please modify [HH_equation.m](HH_equation.m).
 
-2. Train ASLVN
-Run [ASLVN_train.m](ASLVN_train.m). The program will use the training data from [HH_train.mat](HH_train.mat) and optimize the ASLVN using simulated annealing algorithm.  The results are stored in the [ASLVN_training_results.mat](ASLVN_training_results.mat).
+###2. Train ASLVN
+Run [ASLVN_train.m](ASLVN_train.m). The program will use the training data from [HH_train.mat](HH_train.mat) and optimize the ASLVN using simulated annealing algorithm.  The results will be stored in the [ASLVN_training_results.mat](ASLVN_training_results.mat).
 
-3. Evaluate the ASLVN using test data
-Run [ASLVN_test.m](ASLVN_test.m).  The program will load the test data from HH_test.mat and the ASLVN model from [ASLVN_training_results.mat](ASLVN_training_results.mat). Then it will evaluate the model performance by plotting the continuous data predictions, binary data predictions and ROC plot.
+###3. Evaluate the ASLVN using test data
+Run [ASLVN_test.m](ASLVN_test.m).  The program will load the test data from [HH_test.mat](HH_test.mat) and the ASLVN model from [ASLVN_training_results.mat](ASLVN_training_results.mat), and then it will evaluate the model performance by plotting the continuous data predictions, binary data predictions and ROC curve plots.
 
-For more details, please look into the ASLVN_paper.pdf included.
+For more details, please look into the [ASLVN_paper.pdf](ASLVN_paper.pdf) included.
 
-## If you are looking for Single Input Single Output LVN
+## If you are looking for Standard LVN (Single-Input Single-Output)
 Plase to go to: [https://github.com/gengkunling/Laguerre-Volterra-Network.git](https://github.com/gengkunling/Laguerre-Volterra-Network.git)
 
 ## If you find this code useful, please cite:
