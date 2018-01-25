@@ -14,6 +14,8 @@ Run [ASLVN_test.m](ASLVN_test.m).  The program will load the test data from HH_t
 
 For more details, please look into the ASLVN_paper.pdf included.
 
+## For single input single output LVN
+plase to go to: [https://github.com/gengkunling/Laguerre-Volterra-Network.git](https://github.com/gengkunling/Laguerre-Volterra-Network.git)
 
 ## If you find this code useful, please cite:
 
